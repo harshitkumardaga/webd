@@ -1,36 +1,86 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta
-      http-equiv="Content-Type"
-      content="text/html;
-charset=iso-8859-1"
-    />
-    <title>An example HTML page</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <meta charset="UTF-8" />
+    <!-- <script src="script.js"></script> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
   </head>
   <body>
-    <h2>This is an example HTML page</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at nisi
-      velit, aliquet iaculis est. Curabitur porttitor nisi vel lacus euismod
-      egestas. In hac habitasse platea dictumst. In sagittis magna eu odio
-      interdum mollis. Phasellus sagittis pulvinar facilisis. Donec vel odio
-      volutpat tortor volutpat commodo. Donec vehicula vulputate sem, vel
-      iaculis urna molestie eget. Sed pellentesque adipiscing tortor, at
-      condimentum elit elementum sed. Mauris dignissim elementum nunc, non
-      elementum felis condimentum eu. In in turpis quis erat imperdiet
-      vulputate. Pellentesque mauris turpis, dignissim sed iaculis eu, euismod
-      eget ipsum. Vivamus mollis adipiscing viverra. Morbi at sem eget nisl
-      euismod porta. Sed semper, tortor eu molestie iaculis, felis massa
-      vestibulum massa, vitae suscipit arcu nunc quis ante. Phasellus aliquam
-      elit at nisl condimentum commodo. Nunc congue nibh aliquam enim aliquet
-      nec feugiat diam condimentum. Suspendisse potenti. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Nam accumsan velit sed lacus
-      pellentesque in gravida nunc ultrices. Aliquam varius scelerisque erat ut
-      egestas.
-    </p>
-    <p>
-      <a href="../html/html-tutorils.php">harshitmd99@gmail.com</a>
-    </p>
+    <header>
+      <nav>
+        <ul>
+          <li onclick="location.href='#personal-info'">Personal Info</li>
+          <li onclick="location.href='#about'">About</li>
+          <li onclick="location.href='#contact'">Contact</li>
+          <li onclick="location.href='#'">
+            <button class="download-cv">Download CV</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div id="personal-info" class="container jad page1">
+        <div class="box1 jad">
+          <p>I'm</p>
+          <h2>Your full name</h2>
+          <div class="flex-btn">
+            <button class="download-cv">Download CV</button>
+            <button class="contact-btn">Contact</button>
+          </div>
+        </div>
+        <div class="box2 jad">
+          <img id="avtar" src="Your image address copy and patse here" alt="" />
+        </div>
+      </div>
+      <div id="about" class="container jad page2">
+        <h2>About</h2>
+        <div class="about">
+          <div class="name gmphsm">Harshit Daga</div>
+          <div class="education gmphsm">
+            B.Tech in Artificial Intelligence and Data Science
+          </div>
+          <div class="college gmphsm">Govt. Engineering College Bikaner</div>
+          <div class="place gmphsm">Gangashahar,Bikaner</div>
+        </div>
+      </div>
+      <div id="contact" class="container jad contact">
+        <h2 style="margin-bottom: 20px;">Contact</h2>
+        <form action="">
+          <input type="text" placeholder="Name" name="" id="" />
+          <input type="email" placeholder="Email" />
+          <textarea
+            name=""
+            id=""
+            placeholder="Message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" id="submit" value="Contact" />
+        </form>
+      </div>
+      <div
+        style="
+          cursor: pointer;
+          font-size: 12px;
+          position: fixed;
+          left: 0;
+          bottom: 0;
+        "
+        onclick="your name()"
+        class="your name"
+      >
+        Created by Harshit Daga
+      </div>
+    </div>
+    <script>
+      function your name()
+      {
+          location.href='https://aulth.github.io/harshitkumardaga
+          ';
+      }
+    </script>
   </body>
 </html>
